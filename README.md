@@ -1,4 +1,4 @@
-# Bot Discord - RZSISTEMA
+# Bot Discord 
 
 Bot desenvolvido para testes e automação.
 
