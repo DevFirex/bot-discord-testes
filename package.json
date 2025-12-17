@@ -1,0 +1,26 @@
+{
+  "name": "bot-discord-testes",
+  "version": "1.0.0",
+  "description": "Testes",
+  "main": "global.js",
+  "scripts": {
+    "start": "node global.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevFirex/bot-discord-testes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DevFirex/bot-discord-testes/issues"
+  },
+  "homepage": "https://github.com/DevFirex/bot-discord-testes#readme",
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.3"
+  }
+}
