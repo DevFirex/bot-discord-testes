@@ -20,7 +20,11 @@
   },
   "homepage": "https://github.com/DevFirex/bot-discord-testes#readme",
   "dependencies": {
+    "@discordjs/voice": "^0.19.0",
     "discord.js": "^14.25.1",
-    "dotenv": "^17.2.3"
+    "dotenv": "^17.2.3",
+    "ffmpeg-static": "^5.3.0",
+    "libsodium-wrappers": "^0.7.15",
+    "opusscript": "^0.0.8"
   }
 }
