@@ -1,3 +1,13 @@
+// 🔇 SUPRESSÃO DE AVISOS BENIGNOS DO NODE.JS
+// Isso remove o aviso "TimeoutNegativeWarning" causado por latência na lib de áudio
+const originalEmit = process.emit;
+process.emit = function (name, data, ...args) {
+    if (name === 'warning' && typeof data === 'object' && data.name === 'TimeoutNegativeWarning') {
+        return false;
+    }
+    return originalEmit.apply(process, [name, data, ...args]);
+};
+
 require('dotenv').config();
 const { Client, GatewayIntentBits, REST, Routes, PermissionsBitField, MessageFlags } = require('discord.js');
 
